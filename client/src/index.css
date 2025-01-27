@@ -1,0 +1,30 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: #0a192f;  /* Same as video-room-container */
+  min-height: 100vh;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+/* Capacity Meter - Add to bottom */
+.capacity-meter {
+  height: 8px;
+  background: #f0f0f0;
+  border-radius: 4px;
+  overflow: hidden;
+  margin: 10px 0;
+}
+
+.capacity-meter .fill {
+  height: 100%;
+  background: #4CAF50;
+  transition: width 0.3s ease;
+}
